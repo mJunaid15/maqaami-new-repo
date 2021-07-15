@@ -1,0 +1,360 @@
+
+/* login form */
+.signUpForm{
+    width: 100%;
+
+}
+@media only screen and (max-width: 600px) {
+    .signUpForm{
+        width: 100%;
+      
+    }
+  }
+
+  .signUpForm form{
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+.loginForm{
+    width: 100%;
+  
+}
+@media only screen and (max-width: 600px) {
+    .loginForm{
+        width: 100%;
+      
+    }
+  }
+
+
+  .loginForm h4{
+    text-align: center;
+    padding: 20px 0;
+    
+    /* border-bottom: 1px solid silver; */
+  }
+  .loginForm form{
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  form .txt_field{
+    position: relative;
+    /* border-bottom: 2px solid #adadad;*/
+    margin: 30px 0; 
+  }
+  .txt_field input{
+    width: 100%;
+    padding: 0 0px;
+    /* height: 40px; */
+    font-size: 12px;
+    border: none;
+    border-bottom: 1px solid grey;
+    background: none;
+    outline: none;
+    /* color: #666666 !important; */
+    
+  }
+  .txt_field .labels{
+    position: absolute;
+    bottom: 92%;
+    transform: translateY(50%);
+    left: 1px !important;
+    color: #adadad;
+    font-size: 12px;
+    pointer-events: none;
+    transition: .5s;
+  }
+  /* .txt_field span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    transition: .5s;
+  } */
+  /* .txt_field input:focus ~ .labels,
+  .txt_field input:valid ~ .labels{
+    top: -10px;
+    color: #272a2c;
+  } */
+  /* .txt_field input:focus ~ span::before,
+  .txt_field input:valid ~ span::before{
+    width: 100%;
+    background:  #008bff !important;
+
+  } */
+  /* .pass{
+    
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+  } */
+
+  .welcome{
+    font-size: 22px;
+    font-weight: normal;
+
+
+  }
+
+  .signIn{
+
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration: none;
+
+  }
+
+  .forgot{
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+
+  }
+
+  input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #2691d9;
+    border-radius: 3px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .btn2{
+    width: 100%;
+    height: 50px;
+    border: #fafaf7 !important;
+    background: #fff;
+    color: #404553 !important;
+    border-radius: 2px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .btn2:hover {
+    border: 1px solid gray !important;
+  }
+
+  input[type="submit"]:hover{
+    border-color: #2691d9;
+    transition: .5s;
+  }
+  .signup_link{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+  }
+  .signup_link a{
+    color: #2691d9;
+    text-decoration: none;
+  }
+  .signup_link a:hover{
+    text-decoration: underline;
+  }
+  .hovernone:hover{
+
+    color: #2691d9;
+
+
+  }
+
+/* 
+.login-form h5{
+    font-weight: 700;
+
+}
+
+.securecheckout{
+    position: relative;
+}
+
+.securecheckout::before{
+    content: " ";
+   height: 20px;
+    
+    border: 0.001rem solid rgba(95, 94, 94, 0.741);
+    position: absolute;
+    top: 0;
+    right: 2px;
+    
+
+
+}
+.havntAccount{
+    position: relative;
+}
+.havntAccount::before{
+    content: " ";
+    width: 50px;
+     
+     border: 1px solid rgba(196, 196, 196, 0.583);
+     position: absolute;
+     top: 50%;
+     right: 2px;
+
+}
+
+.havntAccount::after{
+    content: " ";
+    width: 50px;
+     
+    border: 1px solid rgba(196, 196, 196, 0.583);
+     position: absolute;
+     top: 50%;
+          left: 2px;
+
+} */
+
+
+.modal-header{
+    border-bottom: none;
+}
+
+/* .modaluserlogin{
+  position: fixed;
+  top: 20%;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  outline: 0;
+} */
+
+@media (min-width: 576px){
+  .loginModalLogin {
+    max-width: 400px !important;
+    /* margin: 1.75rem auto; */
+}
+}
+
+
+
+/* .fas .fa-eye{
+  color: grey !important;
+
+
+} */
+
+
+/* btn css  start*/
+
+.signbtn{
+  position: relative;
+    color: #2691d9;
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    outline: none;
+	cursor: pointer;
+	/* color: #fff; */
+	transition: .3s ease-in-out;
+	overflow: hidden;
+	
+	text-transform: uppercase;
+}
+
+
+.signbtn span {
+	/* background-color: #f64749; */
+	padding: 5px 5px;
+	position: absolute;
+	z-index: 3;
+	left: 50%;
+	top: 50%;
+	font-size: 14px;
+	font-weight: 900;
+	/* color: #fff; */
+	transform: translate(-50%,-50%);
+}
+.signbtn :hover{
+  color: #2691d9;
+
+
+}
+
+.signbtn span.signin {
+	opacity: 1;
+}
+.signbtn span.loading {
+	opacity: 0;
+}
+/* .clickedbtn{
+  background-color: hotpink;
+} */
+
+.signbtn.clickedbtn span.signin {
+	animation: login .5s ease-in-out forwards;
+}
+.signbtn.clickedbtn span.loading {
+	animation: load 1.5s ease-in-out forwards;
+}
+
+
+@keyframes login {
+	0% {
+		opacity: 1;
+	}
+  50% , 100% {
+		opacity: 0;
+	}
+	
+}
+@keyframes load {
+	0%{
+		opacity: 0;
+	}
+  50% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+/* btn css  end*/
+
+/* validate form css start  */
+
+.error{
+  color:red !important;
+  font-weight: normal;
+  font-size: 12px !important;
+  margin: 0px 0;
+  transition: .5s;
+
+  /* top: 2px;
+    position: absolute; */
+}
+#myinput{
+  position: relative;
+}
+.eyeBtn{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-bottom: 1px;
+}
+#eyehideopen{
+  display: none;
+  margin-bottom: 5px;
+}
+#eyehideopenSignup{
+  display: none;
+  margin-bottom: 5px;
+
+}
